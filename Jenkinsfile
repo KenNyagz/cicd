@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // CHANGE THIS to your Docker Hub username
-        IMAGE     = 'YOUR_DOCKERHUB_USER/devops-capstone'
+        IMAGE     = 'kennyaga/devops-capstone'
         TAG       = "${env.BUILD_NUMBER}"
         CONTAINER = 'devops-app'
     }
